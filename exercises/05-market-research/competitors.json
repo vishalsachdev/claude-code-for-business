@@ -1,0 +1,172 @@
+{
+  "company": "Acme Widgets Inc",
+  "analysis_date": "2024-03-15",
+  "competitors": [
+    {
+      "name": "WidgetCorp",
+      "website": "widgetcorp.example.com",
+      "founded": 2015,
+      "headquarters": "San Francisco, CA",
+      "employee_count": "50-100",
+      "funding": "$12M Series A",
+      "products": [
+        {
+          "name": "WidgetCorp Basic",
+          "price": 49,
+          "features": ["Core functionality", "Email support", "5 users included"]
+        },
+        {
+          "name": "WidgetCorp Pro",
+          "price": 99,
+          "features": ["All Basic features", "API access", "Priority support", "25 users"]
+        },
+        {
+          "name": "WidgetCorp Enterprise",
+          "price": "Custom",
+          "features": ["All Pro features", "Dedicated success manager", "SLA", "Unlimited users"]
+        }
+      ],
+      "strengths": [
+        "Strong brand recognition",
+        "Extensive integration ecosystem",
+        "Well-documented API"
+      ],
+      "weaknesses": [
+        "Higher price point",
+        "Complex onboarding",
+        "Limited customization options"
+      ],
+      "recent_news": [
+        "Launched mobile app (Jan 2024)",
+        "Acquired DataSync startup (Feb 2024)"
+      ]
+    },
+    {
+      "name": "SimpleWidgets",
+      "website": "simplewidgets.example.com",
+      "founded": 2019,
+      "headquarters": "Austin, TX",
+      "employee_count": "10-25",
+      "funding": "$3M Seed",
+      "products": [
+        {
+          "name": "SimpleWidgets Starter",
+          "price": 0,
+          "features": ["Basic widgets", "Community support", "3 users"]
+        },
+        {
+          "name": "SimpleWidgets Team",
+          "price": 29,
+          "features": ["Unlimited widgets", "Email support", "10 users", "Analytics"]
+        },
+        {
+          "name": "SimpleWidgets Business",
+          "price": 79,
+          "features": ["All Team features", "Custom branding", "50 users", "Integrations"]
+        }
+      ],
+      "strengths": [
+        "Easy to use",
+        "Competitive pricing",
+        "Fast customer support"
+      ],
+      "weaknesses": [
+        "Limited enterprise features",
+        "Smaller customer base",
+        "Fewer integrations"
+      ],
+      "recent_news": [
+        "Reached 10,000 customers (Dec 2023)",
+        "Released Slack integration (Mar 2024)"
+      ]
+    },
+    {
+      "name": "MegaWidget Solutions",
+      "website": "megawidget.example.com",
+      "founded": 2008,
+      "headquarters": "New York, NY",
+      "employee_count": "200-500",
+      "funding": "Public (NYSE: MWGT)",
+      "products": [
+        {
+          "name": "MegaWidget Standard",
+          "price": 149,
+          "features": ["Full platform access", "Phone support", "100 users", "Training included"]
+        },
+        {
+          "name": "MegaWidget Premium",
+          "price": 299,
+          "features": ["All Standard features", "Advanced analytics", "Custom workflows", "Dedicated CSM"]
+        },
+        {
+          "name": "MegaWidget Enterprise",
+          "price": "Custom (typically $500+)",
+          "features": ["All Premium features", "On-premise option", "Custom development", "24/7 support"]
+        }
+      ],
+      "strengths": [
+        "Enterprise-grade security",
+        "Comprehensive feature set",
+        "Global presence and support"
+      ],
+      "weaknesses": [
+        "Expensive for small businesses",
+        "Slow to innovate",
+        "Complex interface"
+      ],
+      "recent_news": [
+        "Q4 earnings beat expectations (Jan 2024)",
+        "Announced AI features roadmap (Feb 2024)"
+      ]
+    },
+    {
+      "name": "WidgetFlow",
+      "website": "widgetflow.example.com",
+      "founded": 2021,
+      "headquarters": "Remote-first",
+      "employee_count": "5-10",
+      "funding": "Bootstrapped",
+      "products": [
+        {
+          "name": "WidgetFlow Solo",
+          "price": 19,
+          "features": ["Personal use", "Email support", "1 user", "Basic widgets"]
+        },
+        {
+          "name": "WidgetFlow Team",
+          "price": 49,
+          "features": ["Team collaboration", "Chat support", "5 users", "Advanced widgets"]
+        }
+      ],
+      "strengths": [
+        "Modern, clean interface",
+        "Excellent mobile experience",
+        "Transparent pricing"
+      ],
+      "weaknesses": [
+        "Very small team",
+        "Limited track record",
+        "Missing enterprise features"
+      ],
+      "recent_news": [
+        "Featured in TechCrunch (Nov 2023)",
+        "Launched version 2.0 (Feb 2024)"
+      ]
+    }
+  ],
+  "market_summary": {
+    "total_addressable_market": "$2.5B",
+    "growth_rate": "15% CAGR",
+    "key_trends": [
+      "Shift to cloud-based solutions",
+      "Increasing demand for AI features",
+      "Focus on user experience",
+      "Integration with existing tools"
+    ],
+    "opportunities": [
+      "Mid-market segment underserved",
+      "Mobile-first approach gaining traction",
+      "Vertical-specific solutions in demand"
+    ]
+  }
+}

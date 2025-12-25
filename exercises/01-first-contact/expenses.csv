@@ -1,0 +1,103 @@
+date,description,amount,vendor
+2024-01-03,Monthly Zoom subscription,14.99,Zoom
+2024-01-05,Office supplies - pens and notebooks,45.23,Staples
+2024-01-07,Client lunch meeting,87.50,The Capital Grille
+2024-01-08,Uber to airport,34.20,Uber
+2024-01-08,Flight to Chicago - client visit,342.00,United Airlines
+2024-01-08,Hotel - 2 nights Chicago,478.00,Marriott
+2024-01-10,Client dinner,156.75,Gibson's Steakhouse
+2024-01-10,Uber rides in Chicago,52.30,Uber
+2024-01-12,Return flight from Chicago,298.00,United Airlines
+2024-01-15,AWS hosting - January,127.43,Amazon Web Services
+2024-01-15,Google Workspace subscription,12.00,Google
+2024-01-17,Team lunch,134.50,Chipotle
+2024-01-18,Printer paper and toner,89.99,Office Depot
+2024-01-19,Professional headshots,250.00,Local Photography Studio
+2024-01-22,Slack subscription,8.75,Slack
+2024-01-23,Coffee meeting with investor,24.30,Blue Bottle Coffee
+2024-01-25,Conference registration - TechCrunch,599.00,TechCrunch
+2024-01-26,Business cards - 500 qty,65.00,Vistaprint
+2024-01-28,Notion subscription,10.00,Notion
+2024-01-29,Uber to conference,28.50,Uber
+2024-01-30,Parking - downtown meeting,18.00,City Parking
+2024-02-01,Monthly Zoom subscription,14.99,Zoom
+2024-02-02,LinkedIn Premium,59.99,LinkedIn
+2024-02-03,Client gift basket,125.00,Harry & David
+2024-02-05,Coworking space day pass,35.00,WeWork
+2024-02-06,Domain renewal - company website,15.99,GoDaddy
+2024-02-08,Team building event,340.00,Escape Room NYC
+2024-02-09,Postage and shipping,42.15,USPS
+2024-02-10,QuickBooks subscription,25.00,Intuit
+2024-02-12,Client lunch,92.40,Nobu
+2024-02-13,Uber to client office,19.50,Uber
+2024-02-14,Valentine's Day team treats,78.00,Nothing Bundt Cakes
+2024-02-15,AWS hosting - February,134.21,Amazon Web Services
+2024-02-15,Google Workspace subscription,12.00,Google
+2024-02-16,Office chair - ergonomic,425.00,Herman Miller
+2024-02-18,Flight to San Francisco,387.00,Delta
+2024-02-18,Hotel - 3 nights SF,892.00,Hyatt Regency
+2024-02-19,Client dinner SF,203.45,House of Prime Rib
+2024-02-20,Uber rides SF,67.80,Uber
+2024-02-21,Conference badge printing,45.00,FedEx
+2024-02-22,Return flight from SF,356.00,Delta
+2024-02-24,Slack subscription,8.75,Slack
+2024-02-25,Legal consultation - contract review,350.00,Smith & Associates
+2024-02-26,Office plants,89.00,The Sill
+2024-02-27,External hard drive backup,129.99,Best Buy
+2024-02-28,Notion subscription,10.00,Notion
+2024-03-01,Monthly Zoom subscription,14.99,Zoom
+2024-03-02,Industry report subscription,199.00,Gartner
+2024-03-04,Team coffee run,47.25,Starbucks
+2024-03-05,Uber to investor meeting,22.00,Uber
+2024-03-06,Lunch with advisor,76.80,Sweetgreen
+2024-03-07,Website hosting upgrade,49.00,Vercel
+2024-03-08,Standing desk converter,299.00,Fully
+2024-03-10,Client appreciation gift,85.00,Tiffany & Co
+2024-03-11,Monitor - second display,329.00,Dell
+2024-03-12,HDMI cables and adapters,34.50,Amazon
+2024-03-13,Trade show booth materials,456.00,Vistaprint
+2024-03-15,AWS hosting - March,142.87,Amazon Web Services
+2024-03-15,Google Workspace subscription,12.00,Google
+2024-03-16,Parking - all day meeting,24.00,City Parking
+2024-03-17,St. Patrick's Day team lunch,156.00,Irish Pub
+2024-03-18,Flight to Austin - SXSW,412.00,Southwest
+2024-03-18,Hotel - 4 nights Austin,1240.00,W Hotel
+2024-03-19,SXSW badge,895.00,SXSW
+2024-03-20,Client dinners Austin,378.50,Various Austin restaurants
+2024-03-21,Uber rides Austin,89.40,Uber
+2024-03-22,Return flight from Austin,378.00,Southwest
+2024-03-24,Slack subscription,8.75,Slack
+2024-03-25,Legal fees - trademark filing,750.00,IP Attorney
+2024-03-26,Office snacks and beverages,67.30,Costco
+2024-03-27,Webcam upgrade,169.00,Logitech
+2024-03-28,Notion subscription,10.00,Notion
+2024-03-29,Accounting software add-on,15.00,Intuit
+2024-03-30,Team happy hour,234.00,Local Bar
+2024-04-01,Monthly Zoom subscription,14.99,Zoom
+2024-04-02,Q1 tax preparation,400.00,H&R Block
+2024-04-03,Client meeting lunch,94.20,Capital Grille
+2024-04-04,Uber to airport,31.50,Uber
+2024-04-05,Flight to Boston,289.00,JetBlue
+2024-04-05,Hotel - 2 nights Boston,534.00,Four Seasons
+2024-04-06,Client dinner Boston,187.30,Legal Sea Foods
+2024-04-07,Uber rides Boston,43.60,Uber
+2024-04-08,Return flight from Boston,267.00,JetBlue
+2024-04-10,Mailchimp subscription,20.00,Mailchimp
+2024-04-11,Stock photos subscription,29.00,Shutterstock
+2024-04-12,Team lunch celebration,189.00,Nobu
+2024-04-13,Office whiteboard,125.00,Amazon
+2024-04-15,AWS hosting - April,138.92,Amazon Web Services
+2024-04-15,Google Workspace subscription,12.00,Google
+2024-04-16,Networking event tickets,75.00,Eventbrite
+2024-04-17,Uber to networking event,18.00,Uber
+2024-04-18,Professional development book,32.00,Amazon
+2024-04-19,Coworking monthly pass,350.00,WeWork
+2024-04-20,Office keyboard - mechanical,175.00,Keychron
+2024-04-22,Slack subscription,8.75,Slack
+2024-04-23,Client gift - closing deal,200.00,Wine.com
+2024-04-24,Desk lamp,89.00,Amazon
+2024-04-25,Notion subscription,10.00,Notion
+2024-04-26,Team building workshop,450.00,Leadership Consultant
+2024-04-28,Parking - client visit,12.00,City Parking
+2024-04-29,Lunch meeting with partner,68.40,Sweetgreen
+2024-04-30,End of month team dinner,312.00,Ruth's Chris

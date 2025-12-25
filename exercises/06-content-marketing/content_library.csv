@@ -1,0 +1,26 @@
+id,title,type,status,publish_date,author,word_count,topic,performance_score,views,shares,conversions
+1,Getting Started with Widget Management,blog_post,published,2024-01-15,Sarah Chen,1850,getting-started,87,4523,234,45
+2,10 Ways to Boost Your Widget Efficiency,blog_post,published,2024-01-22,Marcus Johnson,2100,productivity,92,6789,456,78
+3,Widget Pro Tips: Advanced Techniques,blog_post,published,2024-02-01,Sarah Chen,2450,advanced,78,3456,189,34
+4,Customer Success Story: Acme Corp,case_study,published,2024-02-08,Lisa Park,1200,case-study,95,8901,623,112
+5,Q1 Industry Trends Report,whitepaper,published,2024-02-15,David Kim,4500,industry-trends,88,2345,567,89
+6,Widget Basics Webinar Recording,video,published,2024-02-20,Sarah Chen,0,getting-started,91,12345,890,156
+7,The Future of Widget Technology,blog_post,published,2024-02-28,Marcus Johnson,1950,thought-leadership,82,4567,345,56
+8,How We Reduced Costs by 40%,case_study,published,2024-03-05,Lisa Park,1100,case-study,96,9012,712,134
+9,Widget Integration Guide,documentation,published,2024-03-10,David Kim,3200,technical,75,1890,78,23
+10,Spring Product Update Announcement,blog_post,published,2024-03-15,Sarah Chen,850,product-news,89,7654,432,87
+11,Widget Security Best Practices,blog_post,draft,2024-03-20,Marcus Johnson,2200,security,0,0,0,0
+12,Enterprise Customer Roundtable,video,draft,2024-03-25,Lisa Park,0,case-study,0,0,0,0
+13,Widget vs Competitors: Honest Comparison,blog_post,draft,2024-03-28,David Kim,2800,comparison,0,0,0,0
+14,Annual State of Widgets Report,whitepaper,in_progress,2024-04-01,Sarah Chen,0,industry-trends,0,0,0,0
+15,Quick Start Video Tutorial,video,published,2024-01-08,Marcus Johnson,0,getting-started,94,15678,1023,198
+16,Widget ROI Calculator Launch,blog_post,published,2024-02-12,Lisa Park,950,product-news,86,5432,298,67
+17,Customer Interview: StartupXYZ,podcast,published,2024-02-25,David Kim,0,case-study,79,3210,145,28
+18,Monthly Newsletter - January,email,published,2024-01-31,Sarah Chen,650,newsletter,83,0,45,34
+19,Monthly Newsletter - February,email,published,2024-02-28,Sarah Chen,720,newsletter,85,0,52,41
+20,Monthly Newsletter - March,email,published,2024-03-31,Sarah Chen,680,newsletter,81,0,48,38
+21,LinkedIn Post: Industry Award,social,published,2024-02-05,Marcus Johnson,120,company-news,90,0,234,0
+22,Twitter Thread: Widget Tips,social,published,2024-02-18,Lisa Park,280,productivity,88,0,567,0
+23,Instagram Story: Behind the Scenes,social,published,2024-03-01,David Kim,0,company-news,72,0,123,0
+24,Widget Automation Masterclass,webinar,scheduled,2024-04-15,Sarah Chen,0,advanced,0,0,0,0
+25,Partner Spotlight: TechIntegrate,blog_post,published,2024-03-08,Marcus Johnson,1100,partnerships,77,2890,156,29

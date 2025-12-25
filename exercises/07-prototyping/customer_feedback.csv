@@ -1,0 +1,31 @@
+id,submission_date,customer_name,company,plan,rating,nps_score,category,feedback_text,sentiment,resolved,resolution_date
+1,2024-01-05,Jennifer Walsh,TechStart Inc,Pro,4,8,feature_request,"Love the product overall. Would be great to have a dark mode option for late night work sessions.",positive,yes,2024-01-12
+2,2024-01-08,Robert Chen,DataFlow LLC,Enterprise,5,10,praise,"Your customer support team is absolutely fantastic. Sarah helped me resolve my integration issue in under an hour.",positive,yes,2024-01-08
+3,2024-01-10,Amanda Foster,Creative Agency,Basic,2,3,bug_report,"Dashboard keeps crashing when I try to export reports. Very frustrating. Happening for 3 days now.",negative,yes,2024-01-11
+4,2024-01-12,Michael Torres,Startup Hub,Pro,4,7,feature_request,"Would love to see Slack integration. We use Slack for everything and manual copy-paste is tedious.",neutral,no,
+5,2024-01-15,Sarah Kim,Enterprise Corp,Enterprise,5,9,praise,"The new analytics dashboard is exactly what we needed. Great job on the recent update!",positive,yes,2024-01-15
+6,2024-01-18,David Patel,SmallBiz Co,Basic,3,5,pricing,"Product is good but pricing feels steep for small businesses. Consider a startup tier?",neutral,no,
+7,2024-01-20,Emily Johnson,Marketing Pro,Pro,4,8,feature_request,"Bulk upload feature would save us hours. Currently adding items one by one.",positive,yes,2024-02-01
+8,2024-01-22,James Wilson,Tech Solutions,Enterprise,1,1,bug_report,"Critical: Data sync has been failing for our team. We've lost work. Need immediate attention.",negative,yes,2024-01-22
+9,2024-01-25,Lisa Anderson,Growth Co,Pro,5,10,praise,"Switched from a competitor last month. Your UX is so much cleaner. No regrets!",positive,yes,2024-01-25
+10,2024-01-28,Chris Brown,Digital First,Basic,3,6,onboarding,"Getting started was confusing. More video tutorials would help new users.",neutral,yes,2024-02-05
+11,2024-02-01,Rachel Green,Agency Plus,Pro,4,7,feature_request,"Calendar view for projects would be helpful. Currently using a separate tool for scheduling.",positive,no,
+12,2024-02-03,Tom Martinez,ConsultingPro,Enterprise,5,9,praise,"Your API documentation is the best I've seen. Integration was smooth.",positive,yes,2024-02-03
+13,2024-02-05,Karen Davis,RetailMax,Pro,2,4,performance,"Pages load slowly when we have more than 100 items. Optimization needed.",negative,yes,2024-02-10
+14,2024-02-08,Steven Lee,FinanceHub,Enterprise,4,8,security,"Would like to see SOC2 compliance badge. Our security team is asking.",neutral,yes,2024-02-15
+15,2024-02-10,Michelle White,HealthTech,Pro,5,10,praise,"The mobile app update is fantastic! Finally can check things on the go.",positive,yes,2024-02-10
+16,2024-02-12,Andrew Clark,EdTech Startup,Basic,3,5,pricing,"Love the product but had to downgrade due to budget. Miss the Pro features.",neutral,no,
+17,2024-02-15,Jessica Moore,MediaGroup,Pro,4,7,feature_request,"Team permissions could be more granular. Need view-only access for some users.",positive,yes,2024-03-01
+18,2024-02-18,Daniel Taylor,LogisticsPro,Enterprise,5,9,praise,"Best customer success team. Monthly check-ins actually provide value.",positive,yes,2024-02-18
+19,2024-02-20,Nicole Adams,DesignStudio,Pro,2,3,bug_report,"Export to PDF formatting is broken. Images overlap with text.",negative,yes,2024-02-22
+20,2024-02-22,Kevin Thompson,SalesForce Pro,Enterprise,4,8,feature_request,"CRM integration would be a game changer for our workflow.",positive,no,
+21,2024-02-25,Laura Garcia,Non-Profit Org,Basic,5,9,praise,"Affordable and effective. Perfect for organizations with limited budgets.",positive,yes,2024-02-25
+22,2024-02-28,Brian Robinson,Manufacturing Co,Pro,3,6,onboarding,"Training resources are outdated. UI has changed but docs haven't.",neutral,yes,2024-03-05
+23,2024-03-02,Amy Harris,E-commerce Plus,Enterprise,4,8,feature_request,"Inventory management module would make this a complete solution for us.",positive,no,
+24,2024-03-05,Jason Lewis,TravelTech,Pro,5,10,praise,"Recommended to 3 other companies already. Keep up the great work!",positive,yes,2024-03-05
+25,2024-03-08,Christina Young,LegalServices,Enterprise,2,4,performance,"Search function is slow with large datasets. Please optimize.",negative,yes,2024-03-12
+26,2024-03-10,Mark Johnson,RealEstate Pro,Pro,4,7,feature_request,"Custom fields would help us track property-specific data.",positive,yes,2024-03-20
+27,2024-03-12,Stephanie King,AccountingFirm,Enterprise,5,9,praise,"Audit trail feature saved us during compliance review. Thank you!",positive,yes,2024-03-12
+28,2024-03-15,Paul Wright,InsuranceCo,Pro,3,5,bug_report,"Notifications not working reliably. Sometimes delayed by hours.",neutral,yes,2024-03-18
+29,2024-03-18,Rebecca Scott,FoodService Inc,Basic,4,7,pricing,"Great value for the Basic tier. Considering upgrade to Pro next quarter.",positive,no,
+30,2024-03-20,William Turner,ConsultGroup,Enterprise,5,10,praise,"ROI has been incredible. Paid for itself in the first month.",positive,yes,2024-03-20
