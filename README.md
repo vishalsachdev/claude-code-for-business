@@ -39,38 +39,234 @@ An 8-video series that takes you from "I've never used a terminal" to "I just bu
 
 ### Step 1: Install Claude Code
 
-**Mac:**
+Choose your operating system and follow the instructions below.
+
+---
+
+<details>
+<summary><strong>🍎 Mac Installation (click to expand)</strong></summary>
+
+#### Option A: Using Homebrew (Recommended)
+
+**1. Open Terminal**
+- Press `Cmd + Space`, type "Terminal", press Enter
+- Or find Terminal in Applications → Utilities
+
+**2. Install Homebrew (if you don't have it)**
+
+Check if you have Homebrew:
+```bash
+brew --version
+```
+
+If you see "command not found", install Homebrew:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Follow the prompts. This may take a few minutes.
+
+**3. Install Claude Code**
 ```bash
 brew install claude-code
 ```
 
-**Windows:**
+**4. Verify installation**
+```bash
+claude --version
+```
+You should see a version number.
+
+#### Option B: Using npm
+
+If you have Node.js installed:
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+#### Troubleshooting Mac
+
+- **"command not found: brew"** — Close Terminal, reopen, try again. If still not working, run the Homebrew install command again.
+- **"permission denied"** — Try `sudo brew install claude-code` and enter your password.
+- **M1/M2 Mac issues** — Make sure Homebrew is installed for Apple Silicon. Run `which brew` — it should show `/opt/homebrew/bin/brew`.
+
+</details>
+
+---
+
+<details>
+<summary><strong>🪟 Windows Installation (click to expand)</strong></summary>
+
+#### Option A: Using winget (Recommended for Windows 10/11)
+
+**1. Open PowerShell as Administrator**
+- Press `Windows + X`
+- Click "Windows Terminal (Admin)" or "PowerShell (Admin)"
+- Click "Yes" if prompted
+
+**2. Check if winget is available**
+```powershell
+winget --version
+```
+If you see a version number, proceed. If not, [install App Installer from Microsoft Store](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1).
+
+**3. Install Claude Code**
 ```powershell
 winget install Anthropic.ClaudeCode
 ```
 
-**Other:** See [official installation guide](https://docs.anthropic.com/claude-code)
+**4. Close and reopen PowerShell, then verify**
+```powershell
+claude --version
+```
 
-### Step 2: Get Your API Key
+#### Option B: Using npm
 
-1. Go to [console.anthropic.com](https://console.anthropic.com)
-2. Create an account (free tier available)
-3. Generate an API key
-4. Run `claude` and enter your key when prompted
+If you have Node.js installed:
+```powershell
+npm install -g @anthropic-ai/claude-code
+```
 
-### Step 3: Clone This Repo
+#### Option C: Direct Download
 
+1. Go to [Claude Code releases](https://github.com/anthropics/claude-code/releases)
+2. Download the Windows installer (.exe)
+3. Run the installer and follow prompts
+4. Restart your terminal
+
+#### Troubleshooting Windows
+
+- **"winget not recognized"** — You need Windows 10 (1809+) or Windows 11. Update Windows or install from Microsoft Store.
+- **"Access denied"** — Make sure you're running PowerShell as Administrator.
+- **"claude not recognized" after install** — Close ALL terminal windows and open a new one. The PATH needs to refresh.
+- **Antivirus blocking** — Some antivirus software blocks new CLI tools. Add an exception for Claude Code.
+
+</details>
+
+---
+
+### Step 2: Choose How to Access Claude
+
+You have three options. Pick the one that works best for you:
+
+---
+
+<details>
+<summary><strong>Option A: Anthropic Account (Easiest)</strong></summary>
+
+Use your Anthropic account directly — no API key needed.
+
+1. **Create an Anthropic account** at [claude.ai](https://claude.ai)
+2. **Run Claude Code:**
+   ```bash
+   claude
+   ```
+3. **Choose "Login with Anthropic"** when prompted
+4. **Follow the browser link** to authenticate
+
+This uses your existing Claude subscription (Pro/Free). See [official docs](https://docs.anthropic.com/en/docs/claude-code/overview) for details.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Option B: Anthropic API Key (Pay-as-you-go)</strong></summary>
+
+Use the Anthropic API for more control and usage-based pricing.
+
+1. **Go to** [console.anthropic.com](https://console.anthropic.com)
+2. **Create an account** or sign in
+3. **Generate an API key:**
+   - Click "API Keys" in sidebar
+   - Click "Create Key"
+   - **Copy immediately** — you won't see it again!
+4. **Add billing** (required for API usage)
+5. **Run Claude Code:**
+   ```bash
+   claude
+   ```
+6. **Paste your API key** when prompted (starts with `sk-ant-`)
+
+See [Anthropic API documentation](https://docs.anthropic.com/en/docs/claude-code/overview) for pricing and limits.
+
+</details>
+
+---
+
+<details>
+<summary><strong>Option C: Free via OpenRouter + Claudish (No Cost)</strong></summary>
+
+Use Claude Code for **free** through OpenRouter's free tier models.
+
+**Step 1: Get an OpenRouter API Key**
+1. Go to [openrouter.ai](https://openrouter.ai)
+2. Create a free account
+3. Go to [openrouter.ai/keys](https://openrouter.ai/keys)
+4. Create a new API key and copy it
+
+**Step 2: Find the Best Free Model**
+1. Go to [openrouter.ai/models](https://openrouter.ai/models)
+2. Filter by "Free" in the pricing dropdown
+3. Look for capable free models like:
+   - `google/gemini-2.0-flash-exp:free`
+   - `meta-llama/llama-3.1-8b-instruct:free`
+   - `mistralai/mistral-7b-instruct:free`
+4. Copy the model ID (e.g., `google/gemini-2.0-flash-exp:free`)
+
+**Step 3: Use Claudish**
+1. Go to [claudish.com](https://claudish.com)
+2. This is a Claude Code-compatible interface that works with OpenRouter
+3. Enter your OpenRouter API key
+4. Select your chosen free model
+5. Start building!
+
+**Note:** Free models are less capable than Claude, but great for learning the workflow. You can upgrade later.
+
+</details>
+
+---
+
+### Step 3: Verify It's Working
+
+Run Claude Code:
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-code-for-business.git
+claude
+```
+
+You should see Claude Code start and wait for your input. Type something like:
+```
+Hello! Can you confirm you're working?
+```
+
+If you get a response, you're ready to go!
+
+### Step 4: Clone This Course Repo
+
+**If you have git installed:**
+```bash
+git clone https://github.com/vishalsachdev/claude-code-for-business.git
 cd claude-code-for-business
 ```
 
-### Step 4: Start with Video 1
+**If you don't have git:**
+1. Click the green "Code" button on this GitHub page
+2. Click "Download ZIP"
+3. Extract the ZIP file
+4. Open Terminal/PowerShell and navigate to the extracted folder
 
-Navigate to the first exercise and follow along:
+### Step 5: Start with Video 1
+
+Navigate to the first exercise:
 ```bash
 cd exercises/01-first-contact
 ```
+
+Then start Claude Code:
+```bash
+claude
+```
+
+You're ready to build your first tool!
 
 ---
 
