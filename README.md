@@ -175,7 +175,7 @@ Use your Anthropic account directly — no API key needed. **The free tier is en
 
 **Upgrade path:** If you hit free tier limits or want faster responses, upgrade to Claude Pro ($20/month). Your workflow stays exactly the same.
 
-See [official docs](https://docs.anthropic.com/en/docs/claude-code/overview) for details.
+See [official docs](https://code.claude.com/docs/en/overview) for details.
 
 </details>
 
@@ -199,7 +199,7 @@ Use the Anthropic API for more control and usage-based pricing.
    ```
 6. **Paste your API key** when prompted (starts with `sk-ant-`)
 
-See [Anthropic API documentation](https://docs.anthropic.com/en/docs/claude-code/overview) for pricing and limits.
+See [Anthropic API documentation](https://code.claude.com/docs/en/overview) for pricing and limits.
 
 </details>
 
