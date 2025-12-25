@@ -146,24 +146,36 @@ npm install -g @anthropic-ai/claude-code
 
 ### Step 2: Choose How to Access Claude
 
-You have three options. Pick the one that works best for you:
+**Good news: You can start completely free!**
+
+Claude.ai offers a free tier that works with Claude Code. Start there, and upgrade later if you need more usage. Alternatively, use Claudish with OpenRouter for unlimited free access (with different models).
+
+You have three options:
 
 ---
 
 <details>
-<summary><strong>Option A: Anthropic Account (Easiest)</strong></summary>
+<summary><strong>Option A: Anthropic Account — Start Free (Recommended)</strong></summary>
 
-Use your Anthropic account directly — no API key needed.
+Use your Anthropic account directly — no API key needed. **The free tier is enough to complete this course.**
 
-1. **Create an Anthropic account** at [claude.ai](https://claude.ai)
+1. **Create a free account** at [claude.ai](https://claude.ai)
+   - Sign up with Google, email, or Apple
+   - No credit card required
+   - Free tier includes daily usage limits
+
 2. **Run Claude Code:**
    ```bash
    claude
    ```
+
 3. **Choose "Login with Anthropic"** when prompted
+
 4. **Follow the browser link** to authenticate
 
-This uses your existing Claude subscription (Pro/Free). See [official docs](https://docs.anthropic.com/en/docs/claude-code/overview) for details.
+**Upgrade path:** If you hit free tier limits or want faster responses, upgrade to Claude Pro ($20/month). Your workflow stays exactly the same.
+
+See [official docs](https://docs.anthropic.com/en/docs/claude-code/overview) for details.
 
 </details>
 
@@ -194,33 +206,39 @@ See [Anthropic API documentation](https://docs.anthropic.com/en/docs/claude-code
 ---
 
 <details>
-<summary><strong>Option C: Free via OpenRouter + Claudish (No Cost)</strong></summary>
+<summary><strong>Option C: Claudish + OpenRouter — Unlimited Free Alternative</strong></summary>
 
-Use Claude Code for **free** through OpenRouter's free tier models.
+Want unlimited usage without paying? Use Claudish with OpenRouter's free models.
 
-**Step 1: Get an OpenRouter API Key**
+**Why choose this:**
+- No usage limits
+- No credit card ever
+- Great for practicing and experimenting
+- Can switch to Claude later with same skills
+
+**Step 1: Get an OpenRouter API Key (Free)**
 1. Go to [openrouter.ai](https://openrouter.ai)
-2. Create a free account
+2. Create a free account (no credit card needed)
 3. Go to [openrouter.ai/keys](https://openrouter.ai/keys)
 4. Create a new API key and copy it
 
 **Step 2: Find the Best Free Model**
 1. Go to [openrouter.ai/models](https://openrouter.ai/models)
 2. Filter by "Free" in the pricing dropdown
-3. Look for capable free models like:
-   - `google/gemini-2.0-flash-exp:free`
-   - `meta-llama/llama-3.1-8b-instruct:free`
-   - `mistralai/mistral-7b-instruct:free`
-4. Copy the model ID (e.g., `google/gemini-2.0-flash-exp:free`)
+3. Recommended free models (as of 2024):
+   - `google/gemini-2.0-flash-exp:free` — Best overall free option
+   - `meta-llama/llama-3.3-70b-instruct:free` — Strong reasoning
+   - `qwen/qwen-2.5-72b-instruct:free` — Good for code
+4. Copy the model ID you want to use
 
 **Step 3: Use Claudish**
 1. Go to [claudish.com](https://claudish.com)
-2. This is a Claude Code-compatible interface that works with OpenRouter
+2. This gives you a Claude Code-like experience with any model
 3. Enter your OpenRouter API key
 4. Select your chosen free model
 5. Start building!
 
-**Note:** Free models are less capable than Claude, but great for learning the workflow. You can upgrade later.
+**Note:** Free models are capable but not as powerful as Claude. Perfect for learning — you can always upgrade to Claude later and your skills transfer directly.
 
 </details>
 
